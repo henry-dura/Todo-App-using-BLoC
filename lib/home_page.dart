@@ -11,9 +11,17 @@ class HomePage extends StatelessWidget {
           Container(
             height: 200,
             width: double.infinity,
-            color: Colors.pink,
-          )
-
+            color: Colors.blue,
+          ),
+          Expanded(
+              child: Container(
+                color: Colors.blue,
+                child: Container(
+            decoration: BoxDecoration(
+                color: Colors.white,
+                  borderRadius: BorderRadius.vertical(top: Radius.circular(50))),
+          ),
+              ))
         ],
       ),
     );
