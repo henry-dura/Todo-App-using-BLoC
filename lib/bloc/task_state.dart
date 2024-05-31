@@ -21,6 +21,8 @@ final class TaskLoaded extends TaskState {
 }
 
 
+
+
 class AddTaskFloatButtonNavigate extends TaskActionState{}
 
 // class TaskAddedNotificationSnackBar extends TaskActionState{}
