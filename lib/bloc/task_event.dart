@@ -18,6 +18,7 @@ class CheckButtonClicked extends TaskEvent{
   List<Object?> get props => [id];
 }
 
+
 class ExpansionClicked extends TaskEvent{
   String id;
   ExpansionClicked( this.id);
@@ -35,6 +36,7 @@ class AddTaskEvent extends TaskEvent{
   // TODO: implement props
   List<Object?> get props => [newTask];
 }
+
 
 class RemoveTask extends TaskEvent{
   String id;
