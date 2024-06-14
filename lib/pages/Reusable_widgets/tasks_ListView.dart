@@ -38,14 +38,7 @@ class TasksListView extends StatelessWidget {
                         style: const TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w700,
-                          // decoration: task.isChecked
-                          //     ? TextDecoration.lineThrough
-                          //     : null,
-                          // decorationColor: Colors.red,
-                          // decorationThickness: 3,
-                          // fontStyle: task.isChecked
-                          //     ? FontStyle.italic
-                          //     : null
+
                         ),
                       ),
                       subtitle: Text(
